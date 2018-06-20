@@ -1,16 +1,9 @@
-﻿Построение начато 01.03.2018 15:58:53.
+﻿Построение начато 14.04.2018 20:27:04.
      1>Проект "D:\part-time\Cesar\Cesar\Cesar.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Cesar.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cesar.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Cesar.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         Cesar.cpp
-     1>d:\part-time\cesar\cesar\cesar.cpp(20): warning C4018: <: несоответствие типов со знаком и без знака
-     1>d:\part-time\cesar\cesar\cesar.cpp(41): warning C4018: <: несоответствие типов со знаком и без знака
-     1>d:\part-time\cesar\cesar\cesar.cpp(66): warning C4018: <: несоответствие типов со знаком и без знака
-     1>d:\part-time\cesar\cesar\cesar.cpp(77): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-     1>d:\part-time\cesar\cesar\cesar.cpp(80): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
-     1>d:\part-time\cesar\cesar\cesar.cpp(82): warning C4018: <: несоответствие типов со знаком и без знака
-         Создание кода...
+     1>d:\part-time\cesar\cesar\main.cpp(33): warning C4715: OpenFile: значение возвращается не при всех путях выполнения
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\part-time\Cesar\Debug\Cesar.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\part-time\Cesar\Debug\Cesar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\part-time\Cesar\Debug\Cesar.lib" /MACHINE:X86 Debug\Cesar.obj
          Debug\main.obj
@@ -20,4 +13,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:07.68
+Затраченное время: 00:00:04.08
